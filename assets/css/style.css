@@ -1,0 +1,294 @@
+html { height:100%;
+       max-width: 100%;
+}
+
+head {background-color: #ffffff;
+      margin: 0px;
+      width: 100%;
+}
+
+.header-bar { margin: 0 auto;
+              width: 100%;
+              background-color:#ffffff;
+              border-bottom: solid #dddddd 2px;
+}
+
+
+.nav { background-color: #ffffff;
+       overflow: hidden;
+       border-bottom-color: #cccccc;
+       margin: 0 auto;
+       max-width: 960px;
+       
+}
+
+.nav a { float:right;
+         text-align:center;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 16px;
+         color: #777777;
+         padding: 42px 10px;
+         vertical-align: top;
+         margin: 0;
+}
+
+.buttons {float:right;
+
+}
+
+.divider { color: #777777;
+           float: right;
+           padding-top: 26px;
+}
+
+.nav a:hover { background-color: #ddd;
+               color: black;
+}
+
+.nav a.active { background-color:#777777;
+                color: black;
+}
+
+.name {background-color: #4aaaa5;
+       color: #ffffff;
+       width: 200px;
+       height: 70px;
+       padding-top: 33px;
+       text-align: center;
+       font-size: 25px;
+       display:inline-block;
+       vertical-align: top;
+       margin-top: 0;
+       margin-right: 0;
+       margin-bottom: 0;
+}
+
+.aboutme { padding: 20px 40px;
+           color: #4aaaa5;
+           margin-top: 30px;
+}
+
+hr {display: block;
+    height: 5px;
+    border: 0;
+    border-top: 3px solid #777777;
+    margin: 1em 40px;
+    padding: 0;  
+    max-width: 100%;  
+}
+
+body { background-image: url(../images/vintage-concrete.png);
+       margin: 0;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       max-width:100%;
+}
+
+.mainbody{ position: relative;
+      margin: 30px auto;
+      max-width: 960px;
+      background-color:#ffffff;   
+      min-height: fit-content;   
+      height:120%;
+      width:100%;
+      border: solid #dddddd 2px;
+      margin-bottom: 0px;
+}
+
+.content { position:relative;   
+        flex: 1 0 auto;
+        width: 960px;
+        background-color: #ffffff;
+        height: auto;
+        padding-bottom: 40px;  
+        max-width: 100%; 
+        overflow: auto;     
+}
+
+.ID { float:left;
+      margin: 20px 20px 20px 40px;
+}
+
+#bio {margin: 30px 40px 20px 40px;
+   line-height: 1.5;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 22px;
+}
+
+.port1 { float:left;
+    background: url(../images/mma.jpg);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 40px;
+    border: solid 1px #777777;
+    overflow: hidden;
+}
+
+.port2 { float:left;
+    background: url(../images/hockey.jpg);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-left: 40px;
+    border: solid 1px #777777;
+    overflow: hidden;
+}
+
+.port3 { float:left;
+    background: url(../images/computers.jpg);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 40px;
+    border: solid 1px #777777;
+    overflow: hidden;
+}
+
+.port4 { float:left;
+    background: url(../images/motorcycles.jpg);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-left: 40px;
+    border: solid 1px #777777;
+    overflow:hidden;
+}
+
+.port5 { float:left;
+    background: url(../images/nfl.png);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 40px;
+    border: solid 1px #777777;
+    overflow: hidden;
+}
+
+.text { position: absolute;
+        bottom: 20px;
+        left: 0;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding-bottom: 30px;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font: 16px;
+}
+
+
+
+form { margin: 20px 40px;}
+
+input[type=text], select, textarea { 
+      font-weight: bold;
+      margin-bottom: 20px;
+      width: 100%;
+      display:block;
+      resize: vertical;
+      border: 1px solid #777777;
+}
+
+input[type=submit] { 
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 12px 20px;
+    border: solid 1px #777777;
+}
+
+#submit {width: 100px;
+         margin: 0px;
+}
+
+.footer {width:100%;
+    height:44px;
+    padding-top:30px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    text-align:center;
+    flex-shrink: 0;  
+    margin-top: 40px; 
+}
+
+@media screen and (max-width: 640px) {
+    .name { width:100%;}
+
+    .buttons { margin:0 32%;}
+
+    .nav-content {margin: 0px auto;
+                  width:80%;}
+
+    .mainbody {max-width: 560px;}
+
+    .content { width: 100%;
+               display:block;
+               margin: 10px auto;}
+
+    .pic-container {max-width: 100%;}      
+
+    .port1 { width:480px; 
+             padding-top:50%}
+    .port2 { width:480px;
+             padding-top:50%}
+    .port3 { width:480px;
+             padding-top:50%}
+    .port4 { width:480px;
+             padding-top:50%}
+    .port5 { width:480px;
+             padding-top:50%}                                   
+}
+
+@media screen and (width: 768px) {
+    .content { width: 100%;
+        display:block;
+        margin: 10px auto;}
+    .mainbody { max-width: 688px;}
+    .name {margin-left:40px;}
+    .port1 { width:40%;}
+    .port2 { width:40%;
+             margin-right:1%}
+    .port3 { width:40%;}
+    .port4 { width:40%;
+             margin-right:1%;}
+    .port5 { width:40%;}
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+    .name {margin-left:32px;}
+    .mainbody {width: 60%;
+               margin-left:40px;}
+    .port1 { width:40%;}
+    .port2 { width:40%;
+             margin-left:30px;
+             margin-right:1%}
+    .port3 { width:40%;}
+    .port4 { width:40%;
+             margin-right:1%;
+             margin-left:30px}
+    .port5 { width:40%;}
+}
